@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_yugioh_2021/routes/routes.dart';
+import 'package:yugioh/routes/routes.dart';
 import '../../../services/service_index.dart';
 import '../../presentional_index.dart';
 import 'main_screen_bloc.dart';
