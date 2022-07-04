@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_yugioh_2021/services/service_index.dart';
+import 'package:yugioh/services/service_index.dart';
 
 class CustomSearchBar extends StatefulWidget {
   const CustomSearchBar({Key? key, required this.onTextchanged})

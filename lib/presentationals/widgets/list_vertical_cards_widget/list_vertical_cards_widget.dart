@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_yugioh_2021/routes/routes.dart';
-import 'package:flutter_yugioh_2021/services/custom_theme_provider/custom_theme_provider.dart';
+import 'package:yugioh/routes/routes.dart';
+import 'package:yugioh/services/custom_theme_provider/custom_theme_provider.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 import '../../presentional_index.dart';
