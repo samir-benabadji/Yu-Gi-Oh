@@ -3,7 +3,8 @@ import 'package:yugioh/services/service_index.dart';
 import 'package:yugioh/services/yugioh_db_service/response_model/all_card_response_model.dart';
 import 'package:rxdart/rxdart.dart';
 
-import '../../presentional_index.dart';
+import '../../widgets/list_vertical_cards_widget/list_vertical_cards_widget.dart';
+
 
 class MainScreenBloc {
   final databaseService = ServiceFacade.getService<YugiohService>();

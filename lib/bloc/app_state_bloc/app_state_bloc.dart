@@ -1,4 +1,5 @@
-import 'package:yugioh/presentationals/presentional_index.dart';
+
+import 'package:yugioh/presentationals/widgets/list_vertical_card_set_widget/list_vertical_card_set_widget.dart';
 import 'package:yugioh/services/yugioh_db_service/response_model/all_card_response_model.dart';
 import 'package:rxdart/subjects.dart';
 

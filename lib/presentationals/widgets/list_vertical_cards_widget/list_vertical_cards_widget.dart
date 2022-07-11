@@ -4,7 +4,8 @@ import 'package:yugioh/routes/routes.dart';
 import 'package:yugioh/services/custom_theme_provider/custom_theme_provider.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
-import '../../presentional_index.dart';
+import '../thumnail_card/thumnail_card.dart';
+
 
 class CardInfoOnVerticalListModel {
   final String cardName;

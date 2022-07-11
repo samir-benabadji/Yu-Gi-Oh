@@ -1,10 +1,10 @@
 import 'package:flashy_tab_bar2/flashy_tab_bar2.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_yugioh_2021/presentationals/presentional_index.dart';
-import 'package:flutter_yugioh_2021/presentationals/screens/main_screen/main_screen.dart';
+import 'package:yugioh/presentationals/screens/main_screen/main_screen.dart';
 import 'package:flutter_phosphor_icons/flutter_phosphor_icons.dart';
-import 'package:flutter_yugioh_2021/presentationals/screens/screen_index.dart';
-import 'package:flutter_yugioh_2021/services/custom_theme_provider/custom_theme_provider.dart';
+import 'package:yugioh/services/custom_theme_provider/custom_theme_provider.dart';
+
+import '../cardset_screen/cardset_screen.dart';
 
 class CustomTabbarItem {
   final String label;

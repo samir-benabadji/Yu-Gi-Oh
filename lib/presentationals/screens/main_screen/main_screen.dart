@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:yugioh/routes/routes.dart';
 import '../../../services/service_index.dart';
-import '../../presentional_index.dart';
+import '../../widgets/list_vertical_cards_widget/list_vertical_cards_widget.dart';
+import '../../widgets/search_bar/search_bar.dart';
 import 'main_screen_bloc.dart';
 
 class MainScreen extends StatefulWidget {

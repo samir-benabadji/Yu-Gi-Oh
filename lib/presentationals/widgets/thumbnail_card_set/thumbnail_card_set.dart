@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:yugioh/services/service_index.dart';
 import 'package:intl/intl.dart';
 
-import '../../presentional_index.dart';
+import '../list_vertical_card_set_widget/list_vertical_card_set_widget.dart';
+
 
 class ThumnailCardSet extends StatelessWidget with CustomThemeMixin {
   const ThumnailCardSet({Key? key, required this.data}) : super(key: key);
