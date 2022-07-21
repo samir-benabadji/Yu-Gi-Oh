@@ -4,5 +4,5 @@
 
 | Decks | Cards |
 |--|--|
-| ![Cards](assets/YuGiOh pic 1.png) | ![Card description](assets/YuGiOh pic 2.png) |
+| ![Decks](assets/YuGiOh pic 1.png) | ![Cards](assets/YuGiOh pic 2.png) |
 
