@@ -4,4 +4,4 @@
 
 | Decks | Cards |
 |--|--|
-| ![Decks](assets/YuGiOhScreenshot1.png) | ![Cards](assets/YuGiOhScreenshot2.png) |
+| ![Decks](assets/YuGiOhScreenshot1.png) | ![Cards](assets/YuGiOhScreensot2.png) |
