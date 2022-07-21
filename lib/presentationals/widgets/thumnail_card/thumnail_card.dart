@@ -1,5 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import '../../../services/service_index.dart';
 
 class ThumnailCard extends StatelessWidget with CustomThemeMixin {
@@ -25,7 +26,7 @@ class ThumnailCard extends StatelessWidget with CustomThemeMixin {
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 300),
           padding: const EdgeInsets.all(10),
-          height: 280,
+          height: Get.height * 0.36,
           width: double.infinity,
           child: OverflowBox(
             child: Center(
@@ -44,7 +45,7 @@ class ThumnailCard extends StatelessWidget with CustomThemeMixin {
 
   Widget _renderQuickSummary(BuildContext context) {
     return SizedBox(
-      width: 170,
+      width: Get.width * 0.43,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -67,8 +68,10 @@ class ThumnailCard extends StatelessWidget with CustomThemeMixin {
         alignment: Alignment.topCenter,
         child: CachedNetworkImage(
           imageUrl: imageLink,
-          placeholder: (context, url) =>
-              Image.asset('assets/default_icon/card_back.jpg'),
+          placeholder: (context, url) => Image.asset(
+            'assets/YuGiOhCardBack.png',
+            fit: BoxFit.cover,
+          ),
           errorWidget: (context, url, error) => const Icon(Icons.error),
         ),
       ),

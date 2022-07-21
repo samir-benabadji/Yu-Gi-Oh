@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:yugioh/services/service_index.dart';
 import 'package:intl/intl.dart';
 
 import '../list_vertical_card_set_widget/list_vertical_card_set_widget.dart';
-
 
 class ThumnailCardSet extends StatelessWidget with CustomThemeMixin {
   const ThumnailCardSet({Key? key, required this.data}) : super(key: key);
@@ -11,7 +11,7 @@ class ThumnailCardSet extends StatelessWidget with CustomThemeMixin {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 100,
+      height: Get.height * 0.13,
       margin: const EdgeInsets.all(10),
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(

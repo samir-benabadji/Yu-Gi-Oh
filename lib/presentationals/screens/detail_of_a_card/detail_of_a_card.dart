@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:yugioh/bloc/bloc_index.dart';
 import 'package:yugioh/presentationals/widgets/animated_opacity_on_appear/animated_opacity_on_appear.dart';
 import '../../../services/service_index.dart';
@@ -40,7 +41,7 @@ class _DetailOfCardState extends State<DetailOfCard> with CustomThemeMixin {
                   child: Column(
                     children: [
                       SizedBox(
-                        height: 300,
+                        height: Get.height * 0.385,
                         child: ThumnailCard(
                           cardName:
                               GlobalBloc.appStateBloc.focusedCard().name ?? '',

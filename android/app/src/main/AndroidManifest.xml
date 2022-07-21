@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.yugioh">
+    package="com.samirbenabadji.YuGiOh_Cards">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="yugioh"
+        android:label="YuGiOh Cards"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

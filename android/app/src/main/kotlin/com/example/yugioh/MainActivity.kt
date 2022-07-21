@@ -1,4 +1,4 @@
-package com.example.yugioh
+package com.samirbenabadji.YuGiOh_Cards
 
 import io.flutter.embedding.android.FlutterActivity
 

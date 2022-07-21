@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:yugioh/presentationals/screens/detail_of_cardset/detail_of_cardset.dart';
 import 'package:yugioh/presentationals/screens/tabbar_with_main_screens/tabbar_with_main_screens.dart';
 import 'package:yugioh/routes/routes.dart';
@@ -11,7 +12,10 @@ import 'presentationals/screens/detail_of_a_card/detail_of_a_card.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   initializeDateFormatting();
-  ;
+  
+  SystemChrome.setPreferredOrientations(
+      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
+      
   ServiceFacade.registerDefaultService();
   runApp(const MyApp());
 }
